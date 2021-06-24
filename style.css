@@ -1,0 +1,61 @@
+body {
+
+
+
+background-color: chartreuse;
+
+}
+.center{display: flex;
+    justify-content:center;
+    align-items:center
+    height: 5em;
+    border:3px solid darkred;
+    }
+.Pizza {
+    /* box-model */
+    padding: 1em;
+    border: 5px solid;
+    margin: 1em;
+    border-radius: 1em;
+    width: 20em;
+    display: inline-block;
+    min-height: 30em;
+
+}
+.Medium_Pizza {
+    background-color: darkseagreen;
+}
+
+.Large_Pizza {
+    background-color: rgb(170, 143, 188);
+}
+.Small_Pizza {
+    background-color: rgb(202, 161, 128);
+}
+.Contact_details {
+    background-color: rgb(188, 143, 143);
+}
+.Contact_details {
+background-color: coral;
+padding: 1em;
+border:5px solid;
+margin:1em;
+border-radius: 1em;
+}
+.center_contacts {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 5em;
+border: 3px solid darkred;
+}
+@media (min-width:960px){
+    body{background-color: cornsilk;}
+}
+@media (min-width:560px){
+    body {background-color: darkred;}
+    .pizzas {display:flex;
+    }
+}
+
+
