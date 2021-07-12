@@ -1,17 +1,18 @@
-body {
-
-
-
-background-color: chartreuse;
+Body { 
+    background-color: rgb(134, 148, 160);
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
-.center{display: flex;
-    justify-content:center;
-    align-items:center
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 5em;
-    border:3px solid darkred;
-    }
-.Pizza {
+    border: 3px solid rgba(225, 238, 49, 0.24);
+  }
+
+.pizza {
     /* box-model */
     padding: 1em;
     border: 5px solid;
@@ -20,41 +21,55 @@ background-color: chartreuse;
     width: 20em;
     display: inline-block;
     min-height: 30em;
+}
+.small_pizza {
+    background-color: rgb(31, 211, 224);
+    
+   
+}
 
-}
-.Medium_Pizza {
-    background-color: darkseagreen;
+
+.medium_pizza {
+    background-color: saddlebrown;
+    
+  
 }
 
-.Large_Pizza {
-    background-color: rgb(170, 143, 188);
+
+.large_pizza {
+    background-color: sienna;
+   
+    
 }
-.Small_Pizza {
-    background-color: rgb(202, 161, 128);
-}
-.Contact_details {
-    background-color: rgb(188, 143, 143);
-}
-.Contact_details {
-background-color: coral;
-padding: 1em;
-border:5px solid;
-margin:1em;
-border-radius: 1em;
+
+.contacts_details {
+    background-color: #e06acd;
+    padding: 1em;
+    border: 5px solid;
+    margin: 1em;
+    border-radius: 1em;    
 }
 .center_contacts {
-display: flex;
-justify-content: center;
-align-items: center;
-height: 5em;
-border: 3px solid darkred;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5em;
+    border: 3px solid rgb(72, 106, 112);
+  }
+
 @media (min-width:960px){
-    body{background-color: cornsilk;}
+   
+body{
+    background-color: rgb(199, 65, 24);
+}
 }
 @media (min-width:560px){
-    body {background-color: darkred;}
-    .pizzas {display:flex;
+   
+    body{
+        background-color:rgb(235, 196, 112)
+    }
+    .pizzas {
+        display: flex;
     }
 }
 
